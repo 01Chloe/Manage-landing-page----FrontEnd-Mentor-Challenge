@@ -572,6 +572,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 footer .footer-links .footer-links-group svg {
   cursor: pointer;
@@ -651,6 +652,14 @@ footer .footer-copy p {
   font-size: 14px;
   opacity: 0.6;
 }
+footer .attribution {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background: #1d1e25;
+  color: #fafafa;
+  padding: 20px 0 10px;
+}
 
 @media screen and (max-width: 985px) {
   footer {
@@ -670,10 +679,4 @@ footer .footer-copy p {
   footer .footer-copy .input-group button {
     margin-left: 5px;
   }
-}
-.attribution {
-  text-align: center;
-  background: #1d1e25;
-  color: #fafafa;
-  padding: 10px 0 30px;
 }/*# sourceMappingURL=style.css.map */

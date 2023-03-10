@@ -580,6 +580,7 @@ footer{
      flex-direction: row;
      justify-content: space-around;
      align-items: center;
+     position: relative;
      .footer-links{
           .footer-links-group{
                svg{
@@ -647,7 +648,7 @@ footer{
                     color: #fafafa77;
                     text-align: center;
                     margin-top: 10px;
-
+                    
                }
           }
           p{
@@ -655,6 +656,14 @@ footer{
                font-size: 14px;
                opacity: 0.6;
           }
+     }
+     .attribution{
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          background: $veryDarkBlue;
+          color: $veryLightGray;
+          padding: 20px 0 10px;
      }
 }
 @media screen and (max-width: 985px) {
@@ -681,12 +690,4 @@ footer{
                }
           }
      }
-}
-
-// Attribution
-.attribution{
-     text-align: center;
-     background: $veryDarkBlue;
-     color: $veryLightGray;
-     padding: 10px 0 30px;
 }
